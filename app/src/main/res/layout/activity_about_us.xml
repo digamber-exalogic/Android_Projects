@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context="com.example.android.santa_monica3.AboutUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From modest beginning as an information cell in Kochi, Kerala, Santa Monica has emerged as one of the most reputed overseas education facilitator with association across 30 + countries and over 300+ universities, with offices all over south India and affiliated Centers throughout India."
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:layout_marginTop="10sp"
+        android:layout_width="170sp"
+        android:layout_height="170sp"
+        android:layout_gravity="center"
+        android:src="@drawable/about_us"/>
+
+</LinearLayout>
